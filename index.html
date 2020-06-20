@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header-title"><h1>Keyboard drumkit</h1></div>
+
+    <div class="keys">
+      <div class="key" data-key="65">A</div>
+      <div class="key" data-key="90">Z</div>
+      <div class="key" data-key="69">E</div>
+      <div class="key" data-key="82">R</div>
+      <div class="key" data-key="84">T</div>
+      <div class="key" data-key="89">Y</div>
+      <div class="key" data-key="85">U</div>
+      <div class="key" data-key="73">I</div>
+      <div class="key" data-key="79">O</div>
+      <div class="key" data-key="80">P</div>
+      <div class="key" data-key="81">Q</div>
+      <div class="key" data-key="83">S</div>
+      <div class="key" data-key="68">D</div>
+      <div class="key" data-key="70">F</div>
+      <div class="key" data-key="71">G</div>
+      <div class="key" data-key="72">H</div>
+      <div class="key" data-key="74">J</div>
+      <div class="key" data-key="75">K</div>
+      <div class="key" data-key="76">L</div>
+      <div class="key" data-key="77">M</div>
+      <div class="key" data-key="87">W</div>
+      <div class="key" data-key="88">X</div>
+      <div class="key" data-key="67">C</div>
+      <div class="key" data-key="86">V</div>
+      <div class="key" data-key="66">B</div>
+      <div class="key" data-key="78">N</div>
+      <div class="key" data-key="188">,</div>
+      <div class="key" data-key="59">;</div>
+      <div class="key" data-key="58">:</div>
+      <div class="key" data-key="161">!</div>
+    </div>
+    <div id="key-space" class="key" data-key="32"></div>
+    <!-- audio tracks -->
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/Perc05.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/RevCrash01.wav"></audio>
+    <audio data-key="90" src="sounds/hihat2.wav"></audio>
+    <audio data-key="69" src="sounds/KesKick-08.wav"></audio>
+    <audio data-key="82" src="sounds/LooseKick-08.wav"></audio>
+    <audio data-key="84" src="sounds/VinylK4-Tom01.wav"></audio>
+    <audio data-key="89" src="sounds/Ride01.wav"></audio>
+    <audio data-key="85" src="sounds/OpHat01.wav"></audio>
+    <audio data-key="73" src="sounds/Crash02.wav"></audio>
+    <audio data-key="79" src="sounds/Kurz04-Kick01.wav"></audio>
+    <audio data-key="80" src="sounds/Kurz04-Snr01.wav"></audio>
+    <audio data-key="81" src="sounds/Kurz04-Tom05.wav"></audio>
+    <audio data-key="77" src="sounds/ElecK03-Snr01.wav"></audio>
+    <audio data-key="87" src="sounds/Flam-01.wav"></audio>
+    <audio data-key="88" src="sounds/room_Kick-04.wav"></audio>
+    <audio data-key="67" src="sounds/room_OpHat-04.wav"></audio>
+    <audio data-key="86" src="sounds/Rim02.wav"></audio>
+    <audio data-key="66" src="sounds/K5-Tom02c.wav"></audio>
+    <audio data-key="78" src="sounds/Perc01.wav"></audio>
+    <audio data-key="188" src="sounds/openhat.wav"></audio>
+    <audio data-key="59" src="sounds/Kurz08-Snr02.wav"></audio>
+    <audio data-key="58" src="sounds/Perc03.wav"></audio>
+    <audio data-key="161" src="sounds/Ride02.wav"></audio>
+    <audio data-key="32" src="sounds/Scratch01.wav "></audio>
+    <!-- end audio tracks -->
+    <script src="app.js"></script>
+  </body>
+</html>
