@@ -25,7 +25,7 @@ body {
   padding: 2rem 0 5rem 0;
 }
 .keys {
-  width: 80%;
+  width: 70%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(10, 5rem);
@@ -48,14 +48,14 @@ body {
   text-shadow: 0 0 0.5rem black;
 }
 #key-space {
-  width: 70%;
-  margin: 2rem auto;
+  width: 60%;
+  display:flex;
+  margin:auto;
   border: 0.4rem solid rgb(107, 40, 40);
   border-radius: 0.5rem;
   padding: 1rem;
   transition: all 0.07s ease;
-  text-align: center;
-  justify-items: center;
+  
   color: white;
   background: transparent;
   text-shadow: 0 0 0.5rem black;
